@@ -56,4 +56,4 @@ To embed the chatbot to your website, simply add the tiny script tag to your web
 
 ## 📑 License
 
-Webwhiz is open-source under the GNU Affero General Public License Version 3 (AGPLv3)
+SecondBrain.fyi is open-source under the GNU Affero General Public License Version 3 (AGPLv3)
