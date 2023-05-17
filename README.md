@@ -17,7 +17,7 @@ https://github.com/secondbrain-fyi/secondbrain/assets/55942632/61b8544b-4769-433
 
 Create ChatGPT chatbot for your website in 3 simple steps.
 
-- **Step 1** - SignUp on [SecondBrain](https://secondbrain.ai) and create a new SecondBrain bot.
+- **Step 1** - SignUp on [SecondBrain.fyi](https://secondbrain.fyi) and create a new SecondBrain bot.
 - **Step 2** - Add source, your website URL, pdf, etc. to train the chatbot.
 - **Step 3** - Add the tiny script tag to your website to embed the chatbot.
 - **Step 4** - (Optional) Customize the chatbot to your liking.
