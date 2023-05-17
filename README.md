@@ -2,6 +2,8 @@
 
 Utilize your website data to train ChatGPT and create an AI chatbot, capable of promptly responding to customer questions.
 
+https://github.com/secondbrain-fyi/secondbrain/assets/55942632/61b8544b-4769-4332-aecb-ac6c73895444
+
 ## 🔥 features
 
 - **Simple Integration** - Add a single line of code to your website to add a chatbot.
