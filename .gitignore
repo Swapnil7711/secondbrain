@@ -1,0 +1,202 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Info.plist
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/PkgInfo
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Chromium Framework
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Helpers
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Internet Plug-Ins
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Libraries
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Resources
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/Current
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Chromium Framework
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/app_mode_loader
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/chrome_crashpad_handler
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/Chromium Helper (Alerts).app/Contents/Info.plist
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/Chromium Helper (Alerts).app/Contents/PkgInfo
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/Chromium Helper (Alerts).app/Contents/MacOS/Chromium Helper (Alerts)
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/Chromium Helper (Alerts).app/Contents/Resources/app.icns
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/Chromium Helper (Alerts).app/Contents/Resources/base.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/Chromium Helper (GPU).app/Contents/Info.plist
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/Chromium Helper (GPU).app/Contents/PkgInfo
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/Chromium Helper (GPU).app/Contents/MacOS/Chromium Helper (GPU)
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/Chromium Helper (Plugin).app/Contents/Info.plist
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/Chromium Helper (Plugin).app/Contents/PkgInfo
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/Chromium Helper (Plugin).app/Contents/MacOS/Chromium Helper (Plugin)
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/Chromium Helper (Renderer).app/Contents/Info.plist
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/Chromium Helper (Renderer).app/Contents/PkgInfo
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/Chromium Helper (Renderer).app/Contents/MacOS/Chromium Helper (Renderer)
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/Chromium Helper.app/Contents/Info.plist
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/Chromium Helper.app/Contents/PkgInfo
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Helpers/Chromium Helper.app/Contents/MacOS/Chromium Helper
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Internet Plug-Ins/nacl_irt_x86_64.nexe
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Libraries/libEGL.dylib
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Libraries/libGLESv2.dylib
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Libraries/libvk_swiftshader.dylib
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Libraries/vk_swiftshader_icd.json
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Libraries/MEIPreload/manifest.json
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Libraries/MEIPreload/preloaded_data.pb
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/app_mode-Info.plist
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/chrome_100_percent.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/chrome_200_percent.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/icudtl.dat
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/Info.plist
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/install.sh
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/product_logo_32.png
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/resources.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/v8_context_snapshot.x86_64.bin
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/af.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/am.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/ar.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/ar_XB.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/bg.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/bn.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/ca.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/cs.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/da.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/de.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/el.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/en.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/en_GB.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/en_XA.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/es.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/es_419.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/et.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/fa.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/fi.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/fil.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/fr.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/gu.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/he.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/hi.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/hr.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/hu.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/id.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/it.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/ja.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/kn.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/ko.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/lt.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/lv.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/ml.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/mr.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/ms.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/nb.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/nl.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/pl.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/pt_BR.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/pt_PT.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/ro.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/ru.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/sk.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/sl.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/sr.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/sv.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/sw.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/ta.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/te.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/th.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/tr.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/uk.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/ur.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/vi.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/zh_CN.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/112.0.5614.0/Resources/zh_TW.lproj/locale.pak
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Library/LaunchServices/org.chromium.Chromium.UpdaterPrivilegedHelper
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/app.icns
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/document.icns
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/scripting.sdef
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/af.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/am.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/ar.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/ar_XB.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/bg.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/bn.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/ca.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/cs.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/da.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/de.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/el.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/en.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/en_GB.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/en_XA.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/es.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/es_419.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/et.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/fa.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/fi.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/fil.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/fr.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/gu.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/he.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/hi.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/hr.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/hu.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/id.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/it.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/ja.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/kn.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/ko.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/lt.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/lv.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/ml.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/mr.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/ms.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/nb.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/nl.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/org.chromium.Chromium.manifest/Contents/Resources/org.chromium.Chromium.manifest
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/org.chromium.Chromium.manifest/Contents/Resources/en.lproj/Localizable.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/pl.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/pt_BR.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/pt_PT.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/ro.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/ru.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/sk.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/sl.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/sr.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/sv.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/sw.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/ta.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/te.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/th.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/tr.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/uk.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/ur.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/vi.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/zh_CN.lproj/InfoPlist.strings
+.cache/puppeteer/chrome/mac-1108766/chrome-mac/Chromium.app/Contents/Resources/zh_TW.lproj/InfoPlist.strings
+.env
